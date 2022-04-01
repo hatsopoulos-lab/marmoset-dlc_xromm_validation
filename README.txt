@@ -1,6 +1,5 @@
 ﻿This README.txt file was generated on 2022-01-12 by Dalton Moore. 
 It is a copy of the README file attached to the dataset stored at https://doi.org/10.5061/dryad.d7wm37q2z.
-Temporary link to this data - https://datadryad.org/stash/share/Q47BHkvIDPpOuDnZLI0thCq-VG9ihOwx4z7z-yu_Meg.
 See METHODOLOGICAL INFORMATION for information on how to use the code. Files mentioned will need to be pulled
 from Dryad for most of the code to run properly.
 
@@ -122,6 +121,9 @@ METHODOLOGICAL INFORMATION
 		2. run_anipose_parameter_sweep.py
 		3. train_networks_to_test_effect_of_training_set_sizes.py
 		4. dlc_validation_paper_calibration_and_triangulation.py contains details on calibration methods
+	
+	If you just want to convert DLC/anipose calibration to mayaCam format, use:
+		convert_anipose_calibration_to_mayaCam.py
 	
 3. Instrument- or software-specific information needed to interpret the data: 
 	Python 3 (we used python 3.8), Spyder or another IDE, and the following modules:
